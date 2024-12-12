@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body onload="codeAddress();">
+    <script src="src/js/jquery-3.7.1.min.js"></script>
+    <script src="src/js/script.js"></script>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">
+                <img src="src/images/logo.png" alt="">
+                <p>lizter</p>
+            </div>
+            <a href="#" class="sidebar-button" id="sidebar-home" onclick="sidebarButton(0)">
+                <img src="src/images/icon_home.png" alt="">
+                home
+            </a>
+            <a href="#" class="sidebar-button" id="sidebar-about" onclick="sidebarButton(1)">
+                <img src="src/images/icon_about.png" alt="">
+                about
+            </a>
+            <a href="#" class="sidebar-button" id="sidebar-portfolio" onclick="sidebarButton(2)">
+                <img src="src/images/icon_portfolio.png" alt="">
+                portfolio
+            </a>
+            <a href="#" class="sidebar-button" id="sidebar-contact" onclick="sidebarButton(3)">
+                <img src="src/images/icon_contact.png" alt="">
+                contact
+            </a>
+        </div>
+        <div class="mobile-header">
+            <div class="logo">
+                <img src="src/images/logo.png" alt="">
+                <p>lizter</p>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="mobile-button-grid">
+                <a href="#" class="mobile-button" onclick="sidebarButton(0)">
+                    <img src="src/images/icon_home.png" alt=""><br>home
+                </a>
+                <a href="#" class="mobile-button" onclick="sidebarButton(1)">
+                    <img src="src/images/icon_about.png" alt=""><br>about
+                </a>
+                <a href="#" class="mobile-button" onclick="sidebarButton(2)">
+                    <img src="src/images/icon_portfolio.png" alt=""><br>portfolio
+                </a>
+                <a href="#" class="mobile-button" onclick="sidebarButton(3)">
+                    <img src="src/images/icon_contact.png" alt=""><br>contact
+                </a>
+            </div>
+            <div id="content-div">
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
